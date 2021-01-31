@@ -27,4 +27,11 @@ public class TestBoxTests {
 
         $("#output").shouldHave(text(name), text(email), text(currentAddress), text(permanentAddress));
     }
+
+    @Test
+    void testStructure() {
+        // arrange | given | подготовка
+        // act     | when  | действие
+        // assert  | then  | проверка
+    }
 }
