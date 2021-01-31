@@ -29,7 +29,7 @@ public class TestBoxTests {
         $("#userEmail").setValue(email);
         $("#currentAddress").setValue(currentAddress);
         $("#permanentAddress").setValue(permanentAddress);
-        $("submit").click();
+        $("#submit").click();
 
         $("#output").shouldHave(text(name), text(email), text(currentAddress), text(permanentAddress));
     }
